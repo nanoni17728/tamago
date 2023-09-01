@@ -1,1 +1,6 @@
-You’re not supposed to read this lol.
+# Tamago
+
+Cutie pet experiment
+
+## License
+AGPL, see [LICENSE.md](LICENSE.md)
