@@ -1,3 +1,6 @@
+build/*
+!build/.keep
+
 node_modules/
 public/js
 
