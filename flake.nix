@@ -5,7 +5,8 @@
   in {
     devShells.x86_64-linux.default = pkgs.mkShell {
       
-      buildInputs = [ pkgs.nodejs pkgs.clang pkgs.emscripten ];
+      nativeBuildInputs = [ pkgs.cmake pkgs.clang pkgs.emscripten ];
+      buildInputs = [ pkgs.nodejs ];
 
       shellHook = ''
         if command -v fish > /dev/null
